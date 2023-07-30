@@ -3,6 +3,7 @@ import getTrending from 'API/get-trending';
 import Container from 'components/Container/Container';
 import MoviesList from 'components/MoviesList/MoviesList';
 import { Trending } from './HomePage.styled';
+
 function HomePage() {
   const [movies, setMovies] = useState(null);
 
