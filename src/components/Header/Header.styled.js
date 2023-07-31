@@ -2,15 +2,16 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 import { FaFilm } from 'react-icons/fa';
 import {
-  mainGradient,
+  secondBgColor,
   mainHoverEfect,
   mainTextColor,
   secondTextColor,
 } from 'utilities/variables/css';
 
 export const HeaderWrapper = styled.header`
-  background-image: ${mainGradient};
+  background-color: ${secondBgColor};
   padding: 15px 0 15px 0;
+  
 `;
 
 export const LogoWrapper = styled.div`
